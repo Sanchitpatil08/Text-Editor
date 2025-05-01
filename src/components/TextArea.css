@@ -1,0 +1,72 @@
+/* TextArea.css */
+.custom-textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    resize: vertical;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  .custom-textarea:focus {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border: 2px solid #ff6b81;
+    box-shadow: 0 4px 12px rgba(255, 107, 129, 0.3);
+  }
+  
+  .custom-textarea::placeholder {
+    color: #666;
+    font-style: italic;
+  }
+  
+  .custom-textarea:hover {
+    background: linear-gradient(135deg, #ff6b81, #fcb69f);
+    border-color: #ff6b81;
+  }
+  
+  .custom-textarea:active {
+    border-color: #ff3b5c;
+    background: linear-gradient(135deg, #ff3b5c, #ff9a9e);
+  }
+  
+  /* Button container */
+  .btn-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .custom-btn {
+    background: linear-gradient(135deg, #ff6b81, #fcb69f);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .custom-btn:hover {
+    background: linear-gradient(135deg, #ff3b5c, #ff9a9e);
+  }
+  
+  .custom-btn:focus {
+    outline: none;
+  }
+  
+  .custom-btn:active {
+    background: linear-gradient(135deg, #ff3b5c, #ff9a9e);
+    transform: scale(0.98);
+  }
+  
